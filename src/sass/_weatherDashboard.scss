@@ -1,0 +1,34 @@
+.weather-dashboard {
+    margin: 1rem 0 1.75rem;
+    .card {
+        background-color: rgb(255 255 255 / 30%);
+        backdrop-filter: blur(10px);
+        color: #fff !important;
+    }
+      
+}
+
+.forecast-card {
+    .forecast-item {
+        .box-item {
+            .item {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+                .info-time {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .info-weather {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    .text-temp {
+                        font-size: 1.75rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
